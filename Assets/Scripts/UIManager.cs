@@ -15,7 +15,7 @@ public class UIManager : MonoBehaviour
     [SerializeField]
     private TMP_InputField ip;
 
-    public string ipAddress = "127.0.0..1";
+    public string ipAddress = "127.0.0.1";
 
     UnityTransport transport;
 
@@ -38,7 +38,7 @@ public class UIManager : MonoBehaviour
         startHostButton.onClick.AddListener(() =>
         {
             transport = NetworkManager.Singleton.GetComponent<UnityTransport>();
-            transport.SetConnectionData(ipAddress,6566);
+            transport.SetConnectionData(ipAddress,6568);
             if(NetworkManager.Singleton.StartHost())
             {
                 
@@ -52,7 +52,7 @@ public class UIManager : MonoBehaviour
         startClientButton.onClick.AddListener(() =>
         {
             transport = NetworkManager.Singleton.GetComponent<UnityTransport>();
-            transport.SetConnectionData(ipAddress,6566);
+            transport.SetConnectionData(ipAddress,6568);
              if(NetworkManager.Singleton.StartClient())
             {
 

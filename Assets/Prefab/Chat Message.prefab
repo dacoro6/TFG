@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1362594688322051454}
   - component: {fileID: 6633298328214596197}
-  - component: {fileID: 2775494352334880568}
+  - component: {fileID: 3105236472809020981}
   m_Layer: 5
   m_Name: Chat Message
   m_TagString: Untagged
@@ -46,7 +46,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 277300832855043734}
   m_CullTransparentMesh: 1
---- !u!114 &2775494352334880568
+--- !u!114 &3105236472809020981
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
